@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             mywebview =  (WebView) findViewById(R.id.webview);
             WebSettings webSettings = mywebview.getSettings();
             webSettings.setJavaScriptEnabled(true);
-            mywebview.loadUrl("https://github.com/"); //Enter the URL of the Website you want to create the Mobile Application
+            mywebview.loadUrl("https://hstackdevelopment.com/IOT/public/"); //Enter the URL of the Website you want to create the Mobile Application
             mywebview.setWebViewClient(new WebViewClient());
         }
 
